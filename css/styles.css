@@ -267,7 +267,11 @@ h4 {
 }
 .upper {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
+}
+.upper-contacts {
+  display: flex;
+  align-items: center;
   gap: 50px;
 }
 
@@ -339,4 +343,8 @@ figure {
 .container {
   max-width: 1200px;
   margin-left: 215px;
+}
+.icon {
+  margin-right: 10px;
+  fill-opacity: blue;
 }
