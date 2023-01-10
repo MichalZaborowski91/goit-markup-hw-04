@@ -121,6 +121,8 @@ body {
     0px 1px 2px 0px rgba(0, 0, 0, 0.08);
 }
 .contacts {
+  display: flex;
+  align-items: center;
   text-decoration: none;
   color: var(--uppercontacts-color);
   font-weight: 500;
@@ -142,6 +144,7 @@ body {
   font-style: normal;
   display: flex;
   margin-bottom: 9px;
+  font-weight: 400;
 }
 
 .header .navigation-elements {
@@ -279,33 +282,21 @@ h4 {
   align-items: center;
   gap: 30px;
 }
-.upper-mail,
-.upper-phone {
-  display: flex;
-  align-items: center;
-}
+
 .icon {
   display: flex;
+  align-items: center;
   margin-right: 10px;
   fill: var(--uppercontacts-color);
 }
-.upper-mail:hover .contacts,
-.upper-mail:focus .contacts {
+
+.contacts:hover,
+.contacts:focus {
   color: var(--hilight-color);
 }
-.upper-mail:hover,
-.upper-mail:focus {
-  --uppercontacts-color: var(--hilight-color);
-  cursor: pointer;
-}
-.upper-phone:hover .contacts,
-.upper-phone:focus .contacts {
-  color: var(--hilight-color);
-}
-.upper-phone:hover,
-.upper-phone:focus {
-  --uppercontacts-color: var(--hilight-color);
-  cursor: pointer;
+.contacts:hover .icon,
+.contacts:focus .icon {
+  fill: var(--hilight-color);
 }
 
 .card-set {
