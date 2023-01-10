@@ -29,17 +29,21 @@ body {
   padding-bottom: 25px;
   justify-content: flex-start;
 }
-.footer .logo {
+
+.logo-footer {
+  display: flex;
   font-family: "Railway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   cursor: pointer;
-  display: flex;
   text-decoration: none;
-  justify-content: flex-start;
   margin-top: 60px;
   margin-bottom: 20px;
 }
+.logo-footer .logo {
+  text-decoration: none;
+}
+
 .logo .color {
   color: var(--hilight-color);
   font-family: "oleo script";
@@ -142,9 +146,10 @@ body {
 .address > a {
   color: var(--address-color);
   font-style: normal;
-  display: flex;
+  margin-right: auto;
   margin-bottom: 9px;
   font-weight: 400;
+  text-decoration: none;
 }
 
 .header .navigation-elements {
@@ -254,12 +259,14 @@ h4 {
   align-items: center;
   background-color: var(--headerbackground-color);
 }
+
 .footer {
-  display: flex;
   background-color: var(--akcent-color);
   height: 252px;
   width: 1600px;
+  margin-right: auto;
 }
+
 .footer .container {
   display: flex;
 }
