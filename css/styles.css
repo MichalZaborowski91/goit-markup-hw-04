@@ -29,9 +29,8 @@ body {
   padding-bottom: 25px;
   justify-content: flex-start;
 }
-
-.logo-footer {
-  display: flex;
+.footer .logo {
+  display: inline-flex;
   font-family: "Railway", sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -39,8 +38,6 @@ body {
   text-decoration: none;
   margin-top: 60px;
   margin-bottom: 20px;
-}
-.logo-footer .logo {
   text-decoration: none;
 }
 
