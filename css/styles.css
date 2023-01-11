@@ -390,15 +390,18 @@ figure {
   padding-bottom: 30px;
 }
 .tbackground {
+  display: flex;
   border-radius: 50px;
   margin-bottom: 0;
 }
 .fbackground {
+  display: flex;
   background-color: #ffffff1a;
   border-radius: 50px;
   margin-bottom: 0;
 }
-.fbackground:hover {
+.fbackground:hover,
+.fbackground:focus {
   background-color: var(--hilight-color);
 }
 .tbackground:hover,
